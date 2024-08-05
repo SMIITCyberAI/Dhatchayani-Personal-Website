@@ -125,8 +125,6 @@
   }
 
 
-
-
   if ($(".counter").elExists()) {
     const counterUp = window.counterUp.default
 
@@ -232,7 +230,7 @@
         if (data.responseText !== '') {
           $(formMessages).text(data.responseText);
         } else {
-          $(formMessages).text('Oops! An error occured and your message could not be sent.');
+          $(formMessages).text("Sending your message!");
         }
 
       });
